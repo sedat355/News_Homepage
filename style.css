@@ -14,8 +14,8 @@
 }
 body {
     min-height: 100vh;
-    font-family: 'Inter', sans-serif;
     font-size: 15px;
+    font-family: 'Inter', sans-serif;
 }
 /*! =======GLOBAL STYLES=========================*/
 img {
@@ -63,7 +63,36 @@ nav {
     background-color: var(--very-dark-blue);
     color: var(--off-white);
 }
+@media (max-width: 40rem) {
+    header {
+        position: relative;
+    }
+    nav {
 
+    }
+    .nav_list {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: var(--very-dark-blue);
+        flex-direction: column;
+        width: 50%;
+        padding-block: 20px;
+    }
+    .list_item + .list_item {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .list_item_link {
+        color: var(--grayish-blue);
+    
+    }
+    .list_item_link:hover,
+    .list_item_link:focus {
+    background-color: var(--off-white);
+    color: var(--very-dark-blue);
+}
+}
 
 
 
