@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    list-style-type: none;
 }
 :root {
     --soft-orange:   hsl(35, 77%, 62%);
@@ -16,3 +17,69 @@ body {
     font-family: 'Inter', sans-serif;
     font-size: 15px;
 }
+/*! =======GLOBAL STYLES=========================*/
+img {
+    min-width: 100%;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 90rem;
+    width: 90%;
+    margin: 0 auto;
+}
+/*! =======HEADER STYLES=========================*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.logo_link {
+
+}
+.logo_img {
+
+}
+nav {
+
+}
+.nav_list {
+    display: flex;
+    align-items: center;
+}
+.list_item + .list_item {
+    margin-left: 10px;
+}
+.list_item_link {
+    padding: 5px 10px;
+    color: var(--dark-grayish-blue);
+    transition: .3s;
+}
+.list_item_link:hover,
+.list_item_link:focus {
+    background-color: var(--very-dark-blue);
+    color: var(--off-white);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*! =======GLOBAL STYLES=========================*/
+/*! =======GLOBAL STYLES=========================*/
+/*! =======GLOBAL STYLES=========================*/
+/*! =======GLOBAL STYLES=========================*/
+/*! =======GLOBAL STYLES=========================*/
