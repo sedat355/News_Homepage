@@ -36,6 +36,18 @@ header {
     align-items: center;
     height: 80px;
 }
+.icons {
+    font-size: 42px;
+    cursor: pointer;
+    user-select: none;
+    display: none;
+}
+.menu_icon {
+}
+.close_icon {
+    
+}
+
 
 .logo_link {
 
@@ -66,6 +78,21 @@ nav {
 @media (max-width: 40rem) {
     header {
         position: relative;
+    }
+    .icons {
+        
+    
+    }
+    .menu_icon {
+        display: block;
+    }
+    .close_icon.show,
+    .menu_icon.show {
+        display: block;
+    }
+    .close_icon.hide,
+    .menu_icon.hide {
+        display: none;
     }
     nav {
 
