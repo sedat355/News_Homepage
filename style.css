@@ -16,6 +16,7 @@ body {
     min-height: 100vh;
     font-size: 15px;
     font-family: 'Inter', sans-serif;
+    overflow: hidden;
 }
 /*! =======GLOBAL STYLES=========================*/
 img {
@@ -26,7 +27,7 @@ a {
 }
 .container {
     max-width: 90rem;
-    width: 90%;
+    width: 96%;
     margin: 0 auto;
 }
 /*! =======HEADER STYLES=========================*/
@@ -77,11 +78,16 @@ header {
     .nav_list {
         position: absolute;
         top: 100%;
-        right: 0;
+        right: -150%;
         background-color: var(--very-dark-blue);
         flex-direction: column;
-        width: 50%;
+        width: 100%;
         padding-block: 20px;
+        transition: all .5s ease-in-out;
+        z-index: 100;
+    }
+    .nav_list.show {
+        right: 0px;
     }
     .list_item + .list_item {
         margin-top: 20px;
