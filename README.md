@@ -1,3 +1,5 @@
+### <a href="https://news-homepage35.netlify.app/">Open in Netlify</a>
+
 # Frontend Mentor - News homepage
 
 ![Design preview for the News homepage coding challenge](./design/desktop-preview.jpg)
