@@ -41,6 +41,25 @@ header {
     cursor: pointer;
     user-select: none;
     display: none;
+<<<<<<< HEAD
+=======
+}
+.menu_icon {
+}
+.close_icon {
+    
+}
+
+
+.logo_link {
+
+}
+.logo_img {
+
+}
+nav {
+
+>>>>>>> 59fbac759a888a3f89f55ac2a17b6c980c7e16af
 }
 .nav_list {
     display: flex;
@@ -63,6 +82,13 @@ header {
     header {
         position: relative;
     }
+<<<<<<< HEAD
+=======
+    .icons {
+        
+    
+    }
+>>>>>>> 59fbac759a888a3f89f55ac2a17b6c980c7e16af
     .menu_icon {
         display: block;
     }
@@ -73,6 +99,12 @@ header {
     .close_icon.hide,
     .menu_icon.hide {
         display: none;
+<<<<<<< HEAD
+=======
+    }
+    nav {
+
+>>>>>>> 59fbac759a888a3f89f55ac2a17b6c980c7e16af
     }
     .nav_list {
         position: absolute;
