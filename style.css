@@ -16,7 +16,7 @@ body {
     min-height: 100vh;
     font-size: 15px;
     font-family: 'Inter', sans-serif;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 /*! =======GLOBAL STYLES=========================*/
 img {
