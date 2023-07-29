@@ -36,15 +36,11 @@ header {
     align-items: center;
     height: 80px;
 }
-
-.logo_link {
-
-}
-.logo_img {
-
-}
-nav {
-
+.icons {
+    font-size: 42px;
+    cursor: pointer;
+    user-select: none;
+    display: none;
 }
 .nav_list {
     display: flex;
@@ -67,8 +63,16 @@ nav {
     header {
         position: relative;
     }
-    nav {
-
+    .menu_icon {
+        display: block;
+    }
+    .close_icon.show,
+    .menu_icon.show {
+        display: block;
+    }
+    .close_icon.hide,
+    .menu_icon.hide {
+        display: none;
     }
     .nav_list {
         position: absolute;
@@ -85,7 +89,6 @@ nav {
     }
     .list_item_link {
         color: var(--grayish-blue);
-    
     }
     .list_item_link:hover,
     .list_item_link:focus {
