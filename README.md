@@ -1,4 +1,4 @@
-### <a href="https://news-homepage35.netlify.app/">Open in Netlify</a>
+### <a href="https://news-homepage35.netlify.app/">Open on Netlify</a>
 
 # Frontend Mentor - News homepage
 
